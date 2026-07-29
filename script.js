@@ -1,9 +1,9 @@
-Score = 0
+Score = 0;  
 
 const incrementBtn = document.querySelector('#increment');
-const display = document.getElementById('#display');
+const display = document.getElementById('display');
 
 incrementBtn.addEventListener('click', () => {
     Score++;
-    display.textContent = `Score: ${score}`;
-})
+    display.textContent = `Score: ${Score}`;
+});
